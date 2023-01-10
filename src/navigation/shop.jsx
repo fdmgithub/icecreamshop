@@ -46,3 +46,5 @@ const ShopNavigator = () => {
     </Stack.Navigator>
   );
 };
+
+export default ShopNavigator
