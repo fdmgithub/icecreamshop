@@ -11,7 +11,7 @@ const Products = ({ navigation, route }) => {
 
   const filteredProducts = PRODUCTS.filter((product) => product.categoryId === categoryId);
 
-  console.warn('filteredProducts', filteredProducts);
+  
   const onSelected = (item) => {
     navigation.navigate('Product', { title: item.title, productId: item.id });
   };
